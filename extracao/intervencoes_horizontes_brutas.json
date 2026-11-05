@@ -1,0 +1,1124 @@
+[
+  {
+    "id_registro": "T66-2022-2025",
+    "tabela": 66,
+    "pagina_pdf": 236,
+    "pagina_impressa": 236,
+    "titulo_original": "Ampliação da Rede de Distribuição de Água – Sede de Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "303.300,00"
+    ],
+    "linha_original": "2022 a 2025          Curto Prazo                          -                    303.300,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T66-2026-2036",
+    "tabela": 66,
+    "pagina_pdf": 236,
+    "pagina_impressa": 236,
+    "titulo_original": "Ampliação da Rede de Distribuição de Água – Sede de Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "99.144,00",
+      "402.444,00"
+    ],
+    "linha_original": "2026 a 2036         Médio Prazo             99.144,00                402.444,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T66-2037-2051",
+    "tabela": 66,
+    "pagina_pdf": 236,
+    "pagina_impressa": 236,
+    "titulo_original": "Ampliação da Rede de Distribuição de Água – Sede de Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "17.284,00",
+      "419.728,00"
+    ],
+    "linha_original": "2037 a 2051         Longo Prazo             17.284,00                419.728,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T67-2022-2025",
+    "tabela": 67,
+    "pagina_pdf": 236,
+    "pagina_impressa": 236,
+    "titulo_original": "Situação da Rede de Distribuição ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "303.300,00",
+      "303.300,00",
+      "12.132,00"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo       303.300,00       303.300,00          12.132,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T67-2026-2036",
+    "tabela": 67,
+    "pagina_pdf": 236,
+    "pagina_impressa": 236,
+    "titulo_original": "Situação da Rede de Distribuição ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "303.300,00",
+      "402.444,00",
+      "33.363,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo      303.300,00        402.444,00          33.363,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T67-2037-2051",
+    "tabela": 67,
+    "pagina_pdf": 236,
+    "pagina_impressa": 236,
+    "titulo_original": "Situação da Rede de Distribuição ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "303.300,00",
+      "419.728,00",
+      "45.495,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo      303.300,00        419.728,00          45.495,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T68-2022-2025",
+    "tabela": 68,
+    "pagina_pdf": 237,
+    "pagina_impressa": 237,
+    "titulo_original": "Ampliação da Quantidade de Ligações Domiciliares de Água – Sede de Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "1.350",
+      "21.873"
+    ],
+    "linha_original": "2022 a 2025       Curto Prazo             1.350                      21.873",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T68-2026-2036",
+    "tabela": 68,
+    "pagina_pdf": 237,
+    "pagina_impressa": 237,
+    "titulo_original": "Ampliação da Quantidade de Ligações Domiciliares de Água – Sede de Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "14.501",
+      "36.374"
+    ],
+    "linha_original": "2026 a 2036      Médio Prazo            14.501                     36.374",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T68-2037-2051",
+    "tabela": 68,
+    "pagina_pdf": 237,
+    "pagina_impressa": 237,
+    "titulo_original": "Ampliação da Quantidade de Ligações Domiciliares de Água – Sede de Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "1.572",
+      "37.946"
+    ],
+    "linha_original": "2037 a 2051      Longo Prazo             1.572                      37.946",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T69-2022-2025",
+    "tabela": 69,
+    "pagina_pdf": 237,
+    "pagina_impressa": 237,
+    "titulo_original": "Instalações de Hidrômetros – Sede de Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "21.653",
+      "21.653"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo               21.653                   21.653",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T69-2026-2036",
+    "tabela": 69,
+    "pagina_pdf": 237,
+    "pagina_impressa": 237,
+    "titulo_original": "Instalações de Hidrômetros – Sede de Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "10.096",
+      "31.749"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo              10.096                   31.749",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T69-2037-2051",
+    "tabela": 69,
+    "pagina_pdf": 237,
+    "pagina_impressa": 237,
+    "titulo_original": "Instalações de Hidrômetros – Sede de Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "1.373",
+      "33.122"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo               1.373                    33.122",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T70-2022-2025",
+    "tabela": 70,
+    "pagina_pdf": 238,
+    "pagina_impressa": 238,
+    "titulo_original": "Substituição de Hidrômetros – Sede de Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "12.901",
+      "12.901"
+    ],
+    "linha_original": "2022 a 2025           Curto Prazo             12.901                   12.901",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T70-2026-2036",
+    "tabela": 70,
+    "pagina_pdf": 238,
+    "pagina_impressa": 238,
+    "titulo_original": "Substituição de Hidrômetros – Sede de Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "61.591",
+      "74.492"
+    ],
+    "linha_original": "2026 a 2036         Médio Prazo             61.591                   74.492",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T70-2037-2051",
+    "tabela": 70,
+    "pagina_pdf": 238,
+    "pagina_impressa": 238,
+    "titulo_original": "Substituição de Hidrômetros – Sede de Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "98.807",
+      "173.299"
+    ],
+    "linha_original": "2037 a 2051         Longo Prazo             98.807                   173.299",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T71-2022-2025",
+    "tabela": 71,
+    "pagina_pdf": 242,
+    "pagina_impressa": 242,
+    "titulo_original": "Instalação de Redes de Distribuição de Água – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                       -                                        -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T71-2026-2036",
+    "tabela": 71,
+    "pagina_pdf": 242,
+    "pagina_impressa": 242,
+    "titulo_original": "Instalação de Redes de Distribuição de Água – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "37.650,00",
+      "37.650,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo           37.650,00                 37.650,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T71-2037-2051",
+    "tabela": 71,
+    "pagina_pdf": 242,
+    "pagina_impressa": 242,
+    "titulo_original": "Instalação de Redes de Distribuição de Água – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "1.701,00",
+      "39.351,00"
+    ],
+    "linha_original": "2037 a 2051       Longo Prazo            1.701,00                  39.351,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T72-2022-2025",
+    "tabela": 72,
+    "pagina_pdf": 243,
+    "pagina_impressa": 243,
+    "titulo_original": "Situação da Rede de Distribuição ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                 -                         -                             -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T72-2026-2036",
+    "tabela": 72,
+    "pagina_pdf": 243,
+    "pagina_impressa": 243,
+    "titulo_original": "Situação da Rede de Distribuição ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "37.650,00",
+      "1.238,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo                 -             37.650,00            1.238,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T72-2037-2051",
+    "tabela": 72,
+    "pagina_pdf": 243,
+    "pagina_impressa": 243,
+    "titulo_original": "Situação da Rede de Distribuição ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "1.701,00",
+      "2.902,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo                -             1.701,00            2.902,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T73-2022-2025",
+    "tabela": 73,
+    "pagina_pdf": 243,
+    "pagina_impressa": 243,
+    "titulo_original": "Instalações de Hidrômetros – Distrito Castelo de Sonhos",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                           -                                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T73-2026-2036",
+    "tabela": 73,
+    "pagina_pdf": 243,
+    "pagina_impressa": 243,
+    "titulo_original": "Instalações de Hidrômetros – Distrito Castelo de Sonhos",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "3.119",
+      "3.119"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo               3.119                     3.119",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T73-2037-2051",
+    "tabela": 73,
+    "pagina_pdf": 243,
+    "pagina_impressa": 243,
+    "titulo_original": "Instalações de Hidrômetros – Distrito Castelo de Sonhos",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "142",
+      "3.261"
+    ],
+    "linha_original": "2037 a 2051       Longo Prazo               142                      3.261",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T74-2022-2025",
+    "tabela": 74,
+    "pagina_pdf": 244,
+    "pagina_impressa": 244,
+    "titulo_original": "Substituição de Hidrômetros – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025           Curto Prazo                        -                                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T74-2026-2036",
+    "tabela": 74,
+    "pagina_pdf": 244,
+    "pagina_impressa": 244,
+    "titulo_original": "Substituição de Hidrômetros – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "4.658",
+      "4.658"
+    ],
+    "linha_original": "2026 a 2036         Médio Prazo             4.658                     4.658",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T74-2037-2051",
+    "tabela": 74,
+    "pagina_pdf": 244,
+    "pagina_impressa": 244,
+    "titulo_original": "Substituição de Hidrômetros – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "9.632",
+      "14.290"
+    ],
+    "linha_original": "2037 a 2051         Longo Prazo             9.632                    14.290",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T75-2022-2025",
+    "tabela": 75,
+    "pagina_pdf": 246,
+    "pagina_impressa": 246,
+    "titulo_original": "Ampliação da Rede de Distribuição de Água – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025          Curto Prazo                          -                                     -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T75-2026-2036",
+    "tabela": 75,
+    "pagina_pdf": 246,
+    "pagina_impressa": 246,
+    "titulo_original": "Ampliação da Rede de Distribuição de Água – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "15.562,00",
+      "15.562,00"
+    ],
+    "linha_original": "2026 a 2036         Médio Prazo             15.562,00                15.562,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T75-2037-2051",
+    "tabela": 75,
+    "pagina_pdf": 246,
+    "pagina_impressa": 246,
+    "titulo_original": "Ampliação da Rede de Distribuição de Água – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "703,00",
+      "16.265,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo              703,00                  16.265,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T76-2022-2025",
+    "tabela": 76,
+    "pagina_pdf": 246,
+    "pagina_impressa": 246,
+    "titulo_original": "Situação da Rede de Distribuição de Água ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                 -                         -                             -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T76-2026-2036",
+    "tabela": 76,
+    "pagina_pdf": 246,
+    "pagina_impressa": 246,
+    "titulo_original": "Situação da Rede de Distribuição de Água ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "15.562,00",
+      "511,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo                 -             15.562,00            511,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T76-2037-2051",
+    "tabela": 76,
+    "pagina_pdf": 246,
+    "pagina_impressa": 246,
+    "titulo_original": "Situação da Rede de Distribuição de Água ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "16.265,00",
+      "1.199,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo                -             16.265,00            1.199,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T77-2022-2025",
+    "tabela": 77,
+    "pagina_pdf": 247,
+    "pagina_impressa": 247,
+    "titulo_original": "Ampliação da Quantidade de Ligações Domiciliares de Água – Distrito de Cachoeira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025       Curto Prazo                       -                                        -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T77-2026-2036",
+    "tabela": 77,
+    "pagina_pdf": 247,
+    "pagina_impressa": 247,
+    "titulo_original": "Ampliação da Quantidade de Ligações Domiciliares de Água – Distrito de Cachoeira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "1.286",
+      "1.286"
+    ],
+    "linha_original": "2026 a 2036      Médio Prazo             1.286                      1.286",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T77-2037-2051",
+    "tabela": 77,
+    "pagina_pdf": 247,
+    "pagina_impressa": 247,
+    "titulo_original": "Ampliação da Quantidade de Ligações Domiciliares de Água – Distrito de Cachoeira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "57",
+      "1.343"
+    ],
+    "linha_original": "2037 a 2051      Longo Prazo             57                        1.343",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T78-2022-2025",
+    "tabela": 78,
+    "pagina_pdf": 247,
+    "pagina_impressa": 247,
+    "titulo_original": "Instalações de Hidrômetros – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025           Curto Prazo                        -                                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T78-2026-2036",
+    "tabela": 78,
+    "pagina_pdf": 247,
+    "pagina_impressa": 247,
+    "titulo_original": "Instalações de Hidrômetros – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "1.286",
+      "1.286"
+    ],
+    "linha_original": "2026 a 2036         Médio Prazo             1.286                     1.286",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T78-2037-2051",
+    "tabela": 78,
+    "pagina_pdf": 247,
+    "pagina_impressa": 247,
+    "titulo_original": "Instalações de Hidrômetros – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "57",
+      "1.343"
+    ],
+    "linha_original": "2037 a 2051         Longo Prazo             57                      1.343",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T79-2022-2025",
+    "tabela": 79,
+    "pagina_pdf": 248,
+    "pagina_impressa": 248,
+    "titulo_original": "Substituição de Hidrômetros – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025           Curto Prazo                        -                                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T79-2026-2036",
+    "tabela": 79,
+    "pagina_pdf": 248,
+    "pagina_impressa": 248,
+    "titulo_original": "Substituição de Hidrômetros – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "1.924",
+      "1.924"
+    ],
+    "linha_original": "2026 a 2036         Médio Prazo             1.924                     1.924",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T79-2037-2051",
+    "tabela": 79,
+    "pagina_pdf": 248,
+    "pagina_impressa": 248,
+    "titulo_original": "Substituição de Hidrômetros – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "3.978",
+      "5.902"
+    ],
+    "linha_original": "2037 a 2051         Longo Prazo             3.978                     5.902",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T84-2022-2025",
+    "tabela": 84,
+    "pagina_pdf": 255,
+    "pagina_impressa": 255,
+    "titulo_original": "Implantação de ligações domiciliares de esgoto - Sede Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "1.126",
+      "21.002"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo               1.126                    21.002",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T84-2026-2036",
+    "tabela": 84,
+    "pagina_pdf": 255,
+    "pagina_impressa": 255,
+    "titulo_original": "Implantação de ligações domiciliares de esgoto - Sede Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "6.794",
+      "27.796"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo               6.794                    27.796",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T84-2037-2051",
+    "tabela": 84,
+    "pagina_pdf": 255,
+    "pagina_impressa": 255,
+    "titulo_original": "Implantação de ligações domiciliares de esgoto - Sede Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "1.100",
+      "28.896"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo               1.100                    28.896",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T85-2022-2025",
+    "tabela": 85,
+    "pagina_pdf": 256,
+    "pagina_impressa": 256,
+    "titulo_original": "Ampliação da Rede Coletora de Esgoto - Sede de Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "270.055"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                          -                  270.055",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T85-2026-2036",
+    "tabela": 85,
+    "pagina_pdf": 256,
+    "pagina_impressa": 256,
+    "titulo_original": "Ampliação da Rede Coletora de Esgoto - Sede de Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "47.484",
+      "317.539"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo              47.484               317.539",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T85-2037-2051",
+    "tabela": 85,
+    "pagina_pdf": 256,
+    "pagina_impressa": 256,
+    "titulo_original": "Ampliação da Rede Coletora de Esgoto - Sede de Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "13.735",
+      "331.274"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo              13.735               331.274",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T86-2022-2025",
+    "tabela": 86,
+    "pagina_pdf": 256,
+    "pagina_impressa": 256,
+    "titulo_original": "Situação da Rede de Distribuição de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "270.055,00",
+      "270.055,00",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo       270.055,00       270.055,00                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T86-2026-2036",
+    "tabela": 86,
+    "pagina_pdf": 256,
+    "pagina_impressa": 256,
+    "titulo_original": "Situação da Rede de Distribuição de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "270.055,00",
+      "317.539,00",
+      "18.907,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo      270.055,00       317.539,00          18.907,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T86-2037-2051",
+    "tabela": 86,
+    "pagina_pdf": 256,
+    "pagina_impressa": 256,
+    "titulo_original": "Situação da Rede de Distribuição de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "270.055,00",
+      "331.274,00",
+      "40.515,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo      270.055,00       331.274,00          40.515,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T87-2022-2025",
+    "tabela": 87,
+    "pagina_pdf": 257,
+    "pagina_impressa": 257,
+    "titulo_original": "Implantação de Estações Elevatórias de Esgoto (EEE's) – Sede de Altamira",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "17"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                         -                      17",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T87-2026-2036",
+    "tabela": 87,
+    "pagina_pdf": 257,
+    "pagina_impressa": 257,
+    "titulo_original": "Implantação de Estações Elevatórias de Esgoto (EEE's) – Sede de Altamira",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "3",
+      "20"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo              3                     20",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T87-2037-2051",
+    "tabela": 87,
+    "pagina_pdf": 257,
+    "pagina_impressa": 257,
+    "titulo_original": "Implantação de Estações Elevatórias de Esgoto (EEE's) – Sede de Altamira",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "1",
+      "21"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo              1                     21",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T90-2022-2025",
+    "tabela": 90,
+    "pagina_pdf": 263,
+    "pagina_impressa": 263,
+    "titulo_original": "Implantação de Redes Coletoras de Esgoto – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                        -                                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T90-2026-2036",
+    "tabela": 90,
+    "pagina_pdf": 263,
+    "pagina_impressa": 263,
+    "titulo_original": "Implantação de Redes Coletoras de Esgoto – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "27.211",
+      "27.211"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo             27.211                   27.211",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T90-2037-2051",
+    "tabela": 90,
+    "pagina_pdf": 263,
+    "pagina_impressa": 263,
+    "titulo_original": "Implantação de Redes Coletoras de Esgoto – Distrito de Castelo de Sonhos",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "1.236",
+      "28.447"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo             1.236                    28.447",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T91-2022-2025",
+    "tabela": 91,
+    "pagina_pdf": 263,
+    "pagina_impressa": 263,
+    "titulo_original": "Situação da Rede de Coletora de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                 -                         -                             -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T91-2026-2036",
+    "tabela": 91,
+    "pagina_pdf": 263,
+    "pagina_impressa": 263,
+    "titulo_original": "Situação da Rede de Coletora de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "27.211,00",
+      "913,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo                 -             27.211,00            913,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T91-2037-2051",
+    "tabela": 91,
+    "pagina_pdf": 263,
+    "pagina_impressa": 263,
+    "titulo_original": "Situação da Rede de Coletora de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "28.447,00",
+      "2.096,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo                -             28.447,00            2.096,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T93-2022-2025",
+    "tabela": 93,
+    "pagina_pdf": 265,
+    "pagina_impressa": 265,
+    "titulo_original": "Instalação de Ligações Domiciliares de Esgoto – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                          -                                      -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T93-2026-2036",
+    "tabela": 93,
+    "pagina_pdf": 265,
+    "pagina_impressa": 265,
+    "titulo_original": "Instalação de Ligações Domiciliares de Esgoto – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "1.158",
+      "1.158"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo               1.158                     1.158",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T93-2037-2051",
+    "tabela": 93,
+    "pagina_pdf": 265,
+    "pagina_impressa": 265,
+    "titulo_original": "Instalação de Ligações Domiciliares de Esgoto – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "52",
+      "1.210"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo               52                      1.210",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T94-2022-2025",
+    "tabela": 94,
+    "pagina_pdf": 265,
+    "pagina_impressa": 265,
+    "titulo_original": "Implantação de Redes Coletoras de Esgoto – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                         -                                     -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T94-2026-2036",
+    "tabela": 94,
+    "pagina_pdf": 265,
+    "pagina_impressa": 265,
+    "titulo_original": "Implantação de Redes Coletoras de Esgoto – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "11.240",
+      "11.240"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo             11.240                   11.240",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T94-2037-2051",
+    "tabela": 94,
+    "pagina_pdf": 265,
+    "pagina_impressa": 265,
+    "titulo_original": "Implantação de Redes Coletoras de Esgoto – Distrito de Cachoeira da Serra",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "510",
+      "11.750"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo             510                    11.750",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T95-2022-2025",
+    "tabela": 95,
+    "pagina_pdf": 266,
+    "pagina_impressa": 266,
+    "titulo_original": "Situação da Rede Coletora de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2022,
+    "ano_fim": 2025,
+    "horizonte_original": "Curto Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "-",
+      "-"
+    ],
+    "linha_original": "2022 a 2025         Curto Prazo                 -                         -                             -",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T95-2026-2036",
+    "tabela": 95,
+    "pagina_pdf": 266,
+    "pagina_impressa": 266,
+    "titulo_original": "Situação da Rede Coletora de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2026,
+    "ano_fim": 2036,
+    "horizonte_original": "Médio Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "11.240,00",
+      "377,00"
+    ],
+    "linha_original": "2026 a 2036        Médio Prazo                 -             11.240,00            377,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  },
+  {
+    "id_registro": "T95-2037-2051",
+    "tabela": 95,
+    "pagina_pdf": 266,
+    "pagina_impressa": 266,
+    "titulo_original": "Situação da Rede Coletora de Esgoto ao Longo do Horizonte de Projeto –",
+    "ano_inicio": 2037,
+    "ano_fim": 2051,
+    "horizonte_original": "Longo Prazo",
+    "valores_ordenados_originais": [
+      "-",
+      "11.750,00",
+      "867,00"
+    ],
+    "linha_original": "2037 a 2051        Longo Prazo                -             11.750,00            867,00",
+    "status": "Valores em ordem da fonte; cabeçalhos no trecho original. Não usar como medidas nomeadas antes de mapear colunas."
+  }
+]

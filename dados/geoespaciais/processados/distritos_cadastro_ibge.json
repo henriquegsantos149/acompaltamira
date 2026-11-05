@@ -1,0 +1,29 @@
+{
+  "source": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/1500602/distritos",
+  "source_sha256": "ba833a394883e368a3533f832348ae5bf8d622d698699f7d0c6c74c168c02e7e",
+  "retrieved_at": "2026-11-05T14:46:08.594983+00:00",
+  "year": null,
+  "records": [
+    {
+      "id": 150060205,
+      "nome": "Altamira",
+      "geometry": null,
+      "status": "pendente",
+      "reason": "Nome e código confirmados pela API Localidades. Sem geometria: API Malhas v3 não fornece subdivisão distrital neste endpoint; não equivale às unidades históricas PMISB."
+    },
+    {
+      "id": 150060206,
+      "nome": "Cachoeira da Serra",
+      "geometry": null,
+      "status": "pendente",
+      "reason": "Nome e código confirmados pela API Localidades. Sem geometria: API Malhas v3 não fornece subdivisão distrital neste endpoint; não equivale às unidades históricas PMISB."
+    },
+    {
+      "id": 150060207,
+      "nome": "Castelo dos Sonhos",
+      "geometry": null,
+      "status": "pendente",
+      "reason": "Nome e código confirmados pela API Localidades. Sem geometria: API Malhas v3 não fornece subdivisão distrital neste endpoint; não equivale às unidades históricas PMISB."
+    }
+  ]
+}

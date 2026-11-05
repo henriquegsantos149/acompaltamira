@@ -1,0 +1,31 @@
+﻿indicador_id;ano;valor_original;valor_numerico;unidade;referencia_id;tipo;operador;arquivo_fonte;pagina_pdf;pagina_impressa;tabela
+T98_01;2019;72% (2019);72;%;T98_01_BASE;referência histórica informada no plano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_01;2040;100% (a partir de 2040) (1);100;%;T98_01_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_02;;150;150;l/hab. dia;T98_02_REF;referência sem ano explícito;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_03;2019;97%(2019);97;%;T98_03_BASE;referência histórica informada no plano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_03;2020;100% (a partir de 2020) (1);100;%;T98_03_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_04;2019;100% a partir de 2019;100;%;T98_04_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_05;2019;37% (2019);37;%;T98_05_BASE;referência histórica informada no plano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_05;2040;25% (a partir de 2040) (1);25;%;T98_05_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_06;2019;ND (2019);;%;T98_06_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_06;2022;0% (a partir de 2022);0;%;T98_06_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_07;2019;ND (2019);;%;T98_07_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_07;2021;0% (a partir de 2021);0;%;T98_07_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;303;303;98
+T98_08;2019;ND (2019);;%;T98_08_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_08;2021;≥100 (a partir de 2021);100;%;T98_08_META;meta ou referência a partir do ano;≥;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_09;2019;ND (2019);;%;T98_09_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_09;2021;0% (a partir de 2021);0;%;T98_09_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_10;2019;ND (2019);;%;T98_10_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_10;2021;≥100 (a partir de 2021);100;%;T98_10_META;meta ou referência a partir do ano;≥;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_11;2019;ND (2019);;%;T98_11_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_11;2021;0% (a partir de 2021);0;%;T98_11_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_12;2019;ND (2019);;%;T98_12_BASE;referência histórica informada no plano;;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T98_12;2021;≥100 (a partir de 2021);100;%;T98_12_META;meta ou referência a partir do ano;≥;PMISB-ALTAMIRA-APROVADO.pdf;304;304;98
+T99_01;2019;70% (2019);70;%;T99_01_BASE;referência histórica informada no plano;=;PMISB-ALTAMIRA-APROVADO.pdf;304;304;99
+T99_01;2050;85% (a partir de 2050)(1);85;%;T99_01_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;304;304;99
+T99_02;2019;70% (2019);70;%;T99_02_BASE;referência histórica informada no plano;=;PMISB-ALTAMIRA-APROVADO.pdf;305;305;99
+T99_02;2050;85% (a partir de 2050);85;%;T99_02_META;meta ou referência a partir do ano;=;PMISB-ALTAMIRA-APROVADO.pdf;305;305;99
+T99_03;;72 horas;72;horas;T99_03_REF;referência sem ano explícito;=;PMISB-ALTAMIRA-APROVADO.pdf;305;305;99
+T99_04;;>95% (*);95;%;T99_04_REF;referência sem ano explícito;>;PMISB-ALTAMIRA-APROVADO.pdf;305;305;99
+T99_05;;>80% (*);80;%;T99_05_REF;referência sem ano explícito;>;PMISB-ALTAMIRA-APROVADO.pdf;305;305;99
+T99_06;;>80% (*);80;;T99_06_REF;referência sem ano explícito;>;PMISB-ALTAMIRA-APROVADO.pdf;305;305;99

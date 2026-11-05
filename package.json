@@ -1,0 +1,13 @@
+{
+  "name": "acompaltamira",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard público e geoportal do PMISB de Altamira, com gestão local separada.",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "build": "npm --prefix aplicacao/frontend run build:public",
+    "build:local": "npm --prefix aplicacao/frontend run build",
+    "test": "npm --prefix aplicacao/frontend run test",
+    "typecheck": "npm --prefix aplicacao/frontend run typecheck"
+  }
+}

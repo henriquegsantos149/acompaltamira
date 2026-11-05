@@ -1,0 +1,11 @@
+﻿indicador_id;nome_original;unidade;definicao_formula_original;arquivo_fonte;pagina_pdf;pagina_impressa;tabela
+A1;Índice de cobertura por rede de distribuição;%;Número de domicílios urbanos atendidos por rede de distribuição / Número total de domicílios urbanos (IBGE) [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+A2;Índice de perdas na distribuição;%;(Volume de água produzido – Volume de água consumido) / Volume de água produzido [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+A3;Índice de hidrometração;%;Número de ligações ativas de água micromedidas / Número total de ligações ativas de água [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+E1;Índice de cobertura por rede coletora de esgotos;%;Número de domicílios urbanos atendidos por rede coletora / Número total de domicílios urbanos (IBGE) [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+E2;Índice de tratamento de esgotos;%;Número de economias residenciais ativas ligadas ao sistema de coleta de esgotos afluentes às estações de tratamento de esgotos / Número de economias ligadas ao sistema de esgotos [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+R1;Índice de cobertura por coleta de resíduos;%;Número de domicílios urbanos atendidos por coleta direta de resíduos sólidos / Número total de domicílios urbanos (IBGE) [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+R2;Índice de cobertura por coleta seletiva de materiais recicláveis;%;Número de domicílios urbanos atendidos por coleta seletiva direta e indireta de resíduos sólidos / Número total de domicílios urbanos (IBGE) [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+R3;Índice de eficiência da coleta seletiva;%;Quantidade total de materiais recuperados (exceto rejeitos) / Quantidade total coletada [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+G1;Índice de reclamações dos serviços de água e esgotos;%;Quantidade de reclamações relativas aos serviços de água e esgotos / Número total de domicílios urbanos (IBGE) [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51
+G2;Índice de reclamações dos serviços de limpeza urbana;%;Quantidade de reclamações relativas aos serviços de limpeza / Número total de domicílios urbanos (IBGE) [%];PMISB-ALTAMIRA-APROVADO.pdf;208;208;51

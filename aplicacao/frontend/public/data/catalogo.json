@@ -1,0 +1,205 @@
+{
+  "layers": [
+    {
+      "id": "limite-altamira-ibge",
+      "title": "Limite municipal de Altamira — IBGE 2022",
+      "status": "validada",
+      "type": "geojson",
+      "url": "/geo/limite_altamira_ibge.geojson",
+      "bounds": [
+        [
+          -9.6452,
+          -55.6239
+        ],
+        [
+          -2.9887,
+          -51.6475
+        ]
+      ],
+      "source": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/1500602?formato=application/vnd.geo%2Bjson&qualidade=maxima&periodo=2022",
+      "year": 2022,
+      "description": "Contexto oficial simplificado da API IBGE, sem uso cadastral ou medição de engenharia.",
+      "feature_count": 1
+    },
+    {
+      "id": "pmisb-cadastro-01",
+      "title": "Unidades territoriais PMISB",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=186",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 186,
+      "year": 2022,
+      "description": "Figuras84-87 pp186-189. Figuras históricas",
+      "reason": "Não substituir por limites atuais sem identificação"
+    },
+    {
+      "id": "pmisb-cadastro-02",
+      "title": "Sede municipal",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=23",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 23,
+      "year": 2022,
+      "description": "p23. Coordenada geográfica textual sem datum identificado",
+      "reason": "Não confundir com posição de infraestrutura"
+    },
+    {
+      "id": "pmisb-cadastro-03",
+      "title": "Microssistemas de água",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=118",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 118,
+      "year": 2022,
+      "description": "Tabela20 p118. Dez pares UTM22S sem datum na tabela",
+      "reason": "Bloquear pontos até validar SRC e plausibilidade"
+    },
+    {
+      "id": "pmisb-cadastro-04",
+      "title": "Setores de abastecimento",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=106",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 106,
+      "year": 2022,
+      "description": "Tabela10 p105 e figura36 p106. Mapa com grade e SIRGAS2000 UTM22S",
+      "reason": "Ajuste interno e barra gráfica coerentes; falta validação absoluta contra base independente. Não liberada como sobreposição no catálogo."
+    },
+    {
+      "id": "pmisb-cadastro-05",
+      "title": "Captações",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=94",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 94,
+      "year": 2022,
+      "description": "Figuras17 e24 pp94 e97. Figuras de localização",
+      "reason": "Sem pontos estimados por aparência"
+    },
+    {
+      "id": "pmisb-cadastro-06",
+      "title": "ETAs e reservatórios",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=98",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 98,
+      "year": 2022,
+      "description": "Figuras25 e33 pp98 e103 e tabela10 p105. Arranjos atributos e fotos",
+      "reason": "Não usar fotos como coordenadas"
+    },
+    {
+      "id": "pmisb-cadastro-07",
+      "title": "Redes e adutoras de água",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=114",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 114,
+      "year": 2022,
+      "description": "Tabela12 p112 e figura52 p114. Atributos e mapa",
+      "reason": "Extensão não define traçado"
+    },
+    {
+      "id": "pmisb-cadastro-08",
+      "title": "Bacias e sub-bacias de esgoto",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=124",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 124,
+      "year": 2022,
+      "description": "Figura53 p124. Mapa com grade e SIRGAS2000 visíveis",
+      "reason": "Ajuste interno e barra gráfica coerentes; falta validação absoluta contra base independente. Não liberada como sobreposição no catálogo."
+    },
+    {
+      "id": "pmisb-cadastro-09",
+      "title": "ETE",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=125",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 125,
+      "year": 2022,
+      "description": "Figura54 p125 e figura58 p132. Localização e layout em figuras",
+      "reason": "Layout não equivale a levantamento territorial"
+    },
+    {
+      "id": "pmisb-cadastro-10",
+      "title": "Elevatórias de esgoto",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=126",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 126,
+      "year": 2022,
+      "description": "Tabelas24 26 27 pp126 128 129. Atributos e relações",
+      "reason": "Não atribuir ponto central da sub-bacia"
+    },
+    {
+      "id": "pmisb-cadastro-11",
+      "title": "Coletores e recalque",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=127",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 127,
+      "year": 2022,
+      "description": "Tabelas25 e28 pp127 129-130. Atributos e relações funcionais",
+      "reason": "Sem linhas interpoladas entre instalações"
+    },
+    {
+      "id": "pmisb-cadastro-12",
+      "title": "Aterro e lixões distritais",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=154",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 154,
+      "year": 2022,
+      "description": "Figuras77-79 pp154-156. Figuras e endereço textual",
+      "reason": "Separar situação2022 de situação atual"
+    },
+    {
+      "id": "pmisb-cadastro-13",
+      "title": "Zoneamento urbano",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=59",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 59,
+      "year": 2022,
+      "description": "Figuras12-14 pp59 61 63. Mapas históricos",
+      "reason": "Não apresentar como legislação cartográfica atual confirmada"
+    },
+    {
+      "id": "pmisb-cadastro-14",
+      "title": "Intervenções propostas",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=239",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 239,
+      "year": 2022,
+      "description": "Figuras101 e104 pp239 e259 e tabelas físicas. Esquemas e quantitativos",
+      "reason": "Não converter esquemas em traçados executivos"
+    },
+    {
+      "id": "pmisb-cadastro-15",
+      "title": "Ecopontos e instalações futuras",
+      "status": "pendente",
+      "type": "document",
+      "url": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf#page=270",
+      "source": "PMISB Altamira — documento aprovado",
+      "source_page": 270,
+      "year": 2022,
+      "description": "pp270-271. Propostas sem localização definida",
+      "reason": "Aguardar estudos e localização comprovada"
+    }
+  ]
+}

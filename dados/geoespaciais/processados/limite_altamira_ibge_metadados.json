@@ -1,0 +1,31 @@
+{
+  "id": "limite-altamira-ibge",
+  "source_url": "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/1500602?formato=application/vnd.geo%2Bjson&qualidade=maxima&periodo=2022",
+  "source_sha256": "a172e03fe53a58ea62a858ad030e4edffcc9da8ee81fda87a14970fcdfe45442",
+  "prepared_at": "2026-11-05T14:46:08.594983+00:00",
+  "year": 2022,
+  "source_crs": "EPSG:4674 (SIRGAS2000), conforme documentação da malha IBGE; a resposta GeoJSON não contém membro crs",
+  "display_crs": "EPSG:4326",
+  "axis_order": "longitude, latitude",
+  "transformation": "axis order change (2D) + SIRGAS 2000 to WGS 84 (1) + axis order change (2D)",
+  "transformation_accuracy_m": 1.0,
+  "method": "API oficial simplificada, qualidade maxima; pyproj always_xy=True; nenhuma edição topológica ou simplificação adicional",
+  "scale": "Malha de origem 1:250.000; API simplificada não conserva garantia dessa escala para medição",
+  "license": "Atribuição IBGE; documentação oficial da malha preservada; nenhuma licença adicional presumida",
+  "responsible": "Preparação automatizada Codex; responsável técnico não informado",
+  "bounds": [
+    [
+      -9.6452,
+      -55.6239
+    ],
+    [
+      -2.9887,
+      -51.6475
+    ]
+  ],
+  "feature_count": 1,
+  "original_area_km2": 159533.306,
+  "geodesic_area_km2": 159533.41559404624,
+  "output_sha256": "98445dddc6dd12fcb5b8f7d458d0e275e06622812366d15ca133d797da813196",
+  "warning": "Contexto territorial de 2022, não substitui levantamento cadastral ou limites das unidades do PMISB. Tentativa de período 2024 retornou HTTP500 e foi preservada."
+}

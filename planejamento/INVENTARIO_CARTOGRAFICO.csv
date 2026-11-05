@@ -1,0 +1,17 @@
+camada_candidata;referencia;estado_atual;tratamento_proposto;condicao_publicacao
+Limite municipal;Figura1 p24 e fonte IBGE futura;Apenas figura na documentação local;Obter malha oficial com edição e metadados;Validar fonte SRC transformação e vínculo territorial
+Unidades territoriais PMISB;Figuras84-87 pp186-189;Figuras históricas;Obter polígonos originais ou preparar derivação validada;Não substituir por limites atuais sem identificação
+Sede municipal;p23;Coordenada geográfica textual sem datum identificado;Preservar referência no cadastro;Não confundir com posição de infraestrutura
+Microssistemas de água;Tabela20 p118;Dez pares UTM22S sem datum na tabela;Extrair candidatos e conferir datum e coordenada Parque Ipê;Bloquear pontos até validar SRC e plausibilidade
+Setores de abastecimento;Tabela10 p105 e figura36 p106;Mapa com grade e SIRGAS2000 UTM22S;Avaliar georreferenciamento histórico e depois vetorizar se necessário;Documentar pontos controle resíduos escala e validação
+Captações;Figuras17 e24 pp94 e97;Figuras de localização;Preferir cadastro GIS original ou derivação validada;Sem pontos estimados por aparência
+ETAs e reservatórios;Figuras25 e33 pp98 e103 e tabela10 p105;Arranjos atributos e fotos;Cadastrar objetos e buscar geometria de origem;Não usar fotos como coordenadas
+Redes e adutoras de água;Tabela12 p112 e figura52 p114;Atributos e mapa;Obter vetores executivos ou derivação histórica identificada;Extensão não define traçado
+Bacias e sub-bacias de esgoto;Figura53 p124;Mapa com grade e SIRGAS2000 visíveis;Avaliar sobreposição histórica georreferenciada;Conferir legenda escala e alinhamento
+ETE;Figura54 p125 e figura58 p132;Localização e layout em figuras;Preferir geometria original validada;Layout não equivale a levantamento territorial
+Elevatórias de esgoto;Tabelas24 26 27 pp126 128 129;Atributos e relações;Cadastro sem geometria até obter localização;Não atribuir ponto central da sub-bacia
+Coletores e recalque;Tabelas25 e28 pp127 129-130;Atributos e relações funcionais;Obter traçados originais;Sem linhas interpoladas entre instalações
+Aterro e lixões distritais;Figuras77-79 pp154-156;Figuras e endereço textual;Confirmar posição fonte e data;Separar situação2022 de situação atual
+Zoneamento urbano;Figuras12-14 pp59 61 63;Mapas históricos;Obter geometrias correspondentes ou derivação identificada;Não apresentar como legislação cartográfica atual confirmada
+Intervenções propostas;Figuras101 e104 pp239 e259 e tabelas físicas;Esquemas e quantitativos;Vincular ao território declarado no cadastro;Não converter esquemas em traçados executivos
+Ecopontos e instalações futuras;pp270-271;Propostas sem localização definida;Manter cadastro sem geometria;Aguardar estudos e localização comprovada

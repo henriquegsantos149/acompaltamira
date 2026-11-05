@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm --prefix aplicacao/frontend ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "aplicacao/frontend/dist-public",
+  "rewrites": [
+    { "source": "/api/base", "destination": "/data/base.json" },
+    { "source": "/api/state", "destination": "/data/state.json" },
+    { "source": "/api/geo/catalog", "destination": "/data/catalogo.json" },
+    { "source": "/api/documento", "destination": "/documentos/PMISB-ALTAMIRA-APROVADO.pdf" },
+    { "source": "/((?!api/|data/|geo/|assets/|documentos/).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
+      ]
+    }
+  ]
+}

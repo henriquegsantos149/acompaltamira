@@ -1,0 +1,14 @@
+// @vitest-environment jsdom
+import {afterEach,beforeEach,describe,it,expect,vi} from 'vitest';
+import {render,screen,fireEvent,waitFor,cleanup} from '@testing-library/react';
+import App,{Source} from './App';
+vi.mock('./Geoportal',()=>({default:()=>null}));
+const base={fonte:{paginas:321,sha256:'fonte'},metas:[{meta_id:'A1-2025',indicador_id:'A1',ambito:'Sede de Altamira',ano:2025,valor_original:'0',valor_numerico:0,unidade:'%',pagina_pdf:209},{meta_id:'A1-2029',indicador_id:'A1',ambito:'Distrito conjunto',ano:2029,valor_original:'100',valor_numerico:100,unidade:'%',pagina_pdf:209}],indicadores_principais:[{indicador_id:'A1',nome_original:'Cobertura de água',unidade:'%',pagina_pdf:208}],acoes_previstas:[],investimentos_previstos:[],programas:[],projetos:[],indicadores_desempenho:[],pendencias:[],pendencias_contingencia:[],inventario_fonte:[],diagnostico:[],eventos_contingencia:[]};
+beforeEach(()=>{history.replaceState(null,'','/');window.scrollTo=vi.fn();vi.stubGlobal('fetch',vi.fn((url)=>Promise.resolve({ok:true,json:()=>Promise.resolve(String(url).includes('/base')?base:{write_enabled:false,medicoes:[],execucoes:[],financeiro:[],decisoes:[],historico:[]})})))});
+afterEach(()=>{cleanup();vi.unstubAllGlobals()});
+describe('consulta real e navegação',()=>{
+ it('abre o módulo e preserva o ano não publicado no filtro e URL',async()=>{render(<App/>);await screen.findByText('Acompanhamento do PMISB de Altamira');fireEvent.click(screen.getByRole('button',{name:'Metas e indicadores'}));expect(await screen.findByText('Catálogo de indicadores')).toBeTruthy();fireEvent.change(screen.getByLabelText('Período'),{target:{value:'2026'}});await waitFor(()=>expect(location.search).toContain('periodo=2026'));expect(screen.getAllByText('Nenhum registro para os filtros selecionados.').length).toBeGreaterThan(0)});
+ it('exige confirmação explícita antes de habilitar a escrita',async()=>{render(<App/>);await screen.findByText('Acompanhamento do PMISB de Altamira');fireEvent.click(screen.getByRole('button',{name:'Atualização de dados'}));const button=await screen.findByRole('button',{name:'Habilitar escrita local'});expect((button as HTMLButtonElement).disabled).toBe(true);fireEvent.click(screen.getByLabelText('Confirmo que pausei a sincronização do OneDrive nesta máquina.'));expect((button as HTMLButtonElement).disabled).toBe(false);expect(fetch).toHaveBeenCalledTimes(2)});
+});
+
+describe('origem cartográfica',()=>{it('abre origem IBGE externa quando não há página do plano',()=>{render(<Source row={{source_url:'https://servicodados.ibge.gov.br/api/v3/malhas'}}/>);expect(screen.getByRole('link',{name:'Fonte IBGE'}).getAttribute('href')).toBe('https://servicodados.ibge.gov.br/api/v3/malhas')});it('não cria link externo com protocolo executável',()=>{render(<Source row={{source_url:'javascript:alert(1)'}}/>);expect(screen.queryByRole('link')).toBeNull()})});

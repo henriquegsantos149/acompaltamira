@@ -1,0 +1,3248 @@
+{
+  "tabelas": [
+    {
+      "nome": "metas",
+      "aba": "Metas",
+      "registros": 100,
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "colunas": [
+        "meta_id",
+        "indicador_id",
+        "natureza_registro",
+        "ambito",
+        "ano",
+        "valor_original",
+        "valor_numerico",
+        "unidade",
+        "observacao",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "tabela"
+      ]
+    },
+    {
+      "nome": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "registros": 10,
+      "granularidade": "Um indicador da tabela 51.",
+      "colunas": [
+        "indicador_id",
+        "nome_original",
+        "unidade",
+        "definicao_formula_original",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "tabela"
+      ]
+    },
+    {
+      "nome": "metas_residuos",
+      "aba": "Metas residuos",
+      "registros": 19,
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "colunas": [
+        "meta_id",
+        "ambito",
+        "ano_inicio",
+        "ano_fim",
+        "codigo_original",
+        "objetivo_original",
+        "meta_original",
+        "prazo_original",
+        "responsavel",
+        "observacao",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "tabela"
+      ]
+    },
+    {
+      "nome": "diagnostico",
+      "aba": "Diagnostico",
+      "registros": 162,
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "colunas": [
+        "id",
+        "tipo_registro",
+        "eixo",
+        "local",
+        "periodo_original",
+        "medida",
+        "valor_original",
+        "valor_numero",
+        "unidade",
+        "categoria",
+        "fonte_original",
+        "pagina_pdf",
+        "pagina_impressa",
+        "tabela",
+        "observacao"
+      ]
+    },
+    {
+      "nome": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "registros": 2172,
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "colunas": [
+        "id_registro",
+        "natureza",
+        "localidade",
+        "ano",
+        "medida",
+        "valor_original",
+        "valor_numerico",
+        "unidade",
+        "tabela",
+        "pagina_pdf",
+        "pagina_impressa",
+        "ano_projeto_original",
+        "situacao_valor",
+        "linha_original"
+      ]
+    },
+    {
+      "nome": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "registros": 162,
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "colunas": [
+        "id_registro",
+        "natureza",
+        "eixo",
+        "localidade",
+        "ano_inicio",
+        "ano_fim",
+        "medida",
+        "valor_original",
+        "valor_numerico",
+        "unidade",
+        "tabela",
+        "pagina_pdf",
+        "pagina_impressa",
+        "horizonte_original",
+        "situacao_valor",
+        "linha_original"
+      ]
+    },
+    {
+      "nome": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "registros": 124,
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "colunas": [
+        "investimento_id",
+        "linha_id",
+        "eixo",
+        "localidade",
+        "ano_inicio",
+        "ano_fim",
+        "periodo_original",
+        "descricao_original",
+        "valor_original",
+        "valor",
+        "unidade",
+        "tabela",
+        "pagina_pdf",
+        "pagina_impressa",
+        "item_original",
+        "tipo_linha",
+        "data_base_original",
+        "observacao"
+      ]
+    },
+    {
+      "nome": "programas",
+      "aba": "Programas",
+      "registros": 8,
+      "granularidade": "Um programa com seu código original.",
+      "colunas": [
+        "programa_id",
+        "nome_original",
+        "componente",
+        "pagina_pdf",
+        "pagina_impressa",
+        "fonte_secao"
+      ]
+    },
+    {
+      "nome": "projetos",
+      "aba": "Projetos",
+      "registros": 12,
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "colunas": [
+        "programa_id",
+        "projeto_id",
+        "nome_original",
+        "pagina_pdf",
+        "pagina_impressa",
+        "fonte_secao"
+      ]
+    },
+    {
+      "nome": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "registros": 95,
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "colunas": [
+        "acao_id",
+        "tipo_registro",
+        "eixo",
+        "ambito",
+        "localidade",
+        "descricao_original",
+        "programa",
+        "componente",
+        "codigo_original",
+        "prioridade",
+        "responsavel_original",
+        "prazo_original",
+        "pagina_pdf",
+        "pagina_impressa",
+        "fonte_secao",
+        "observacao",
+        "instrumentos_originais",
+        "secao",
+        "categoria",
+        "acao_original",
+        "arquivo_fonte",
+        "tabela"
+      ]
+    },
+    {
+      "nome": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "registros": 34,
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "colunas": [
+        "indicador_id",
+        "ambito",
+        "periodo_original",
+        "nome_original",
+        "formula_original",
+        "variaveis_originais",
+        "unidade_original",
+        "referencia_original",
+        "observacao",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "tabela",
+        "categoria"
+      ]
+    },
+    {
+      "nome": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "registros": 30,
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "colunas": [
+        "indicador_id",
+        "ano",
+        "valor_original",
+        "valor_numerico",
+        "unidade",
+        "referencia_id",
+        "tipo",
+        "operador",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "tabela"
+      ]
+    },
+    {
+      "nome": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "registros": 17,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "eixo",
+        "medida_id",
+        "codigo_medida_original",
+        "etapa",
+        "evento_original",
+        "causa_original",
+        "acao_original",
+        "prefeitura_municipal_original",
+        "prestador_servicos_original",
+        "outros_original",
+        "atores_envolvidos",
+        "responsavel_original",
+        "observacao",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "registros": 79,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "eixo",
+        "evento_id",
+        "etapa",
+        "evento_original",
+        "causa_original",
+        "medidas_original",
+        "acao_original",
+        "responsavel_original",
+        "observacao",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "registros": 159,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "eixo",
+        "vinculo_id",
+        "evento_id",
+        "medida_id",
+        "etapa",
+        "evento_original",
+        "causa_original",
+        "acao_original",
+        "atores_envolvidos",
+        "responsavel_original",
+        "pagina_medida",
+        "quadro_medida",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "registros": 6,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "acao_id",
+        "eixo",
+        "tipo_original",
+        "etapa",
+        "evento_original",
+        "causa_original",
+        "acao_original",
+        "responsavel_original",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "registros": 4,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "eixo",
+        "risco_id",
+        "etapa",
+        "risco_original",
+        "exemplos_originais",
+        "danos_saude_originais",
+        "responsavel_original",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "pendencias_contingencia",
+      "aba": "Pendencias contingencia",
+      "registros": 3,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "pendencia_id",
+        "descricao",
+        "pagina_pdf",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "registros": 48,
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "colunas": [
+        "acao_id",
+        "eixo",
+        "evento_id",
+        "etapa",
+        "evento_original",
+        "causa_original",
+        "acao_original",
+        "responsavel_original",
+        "arquivo_fonte",
+        "pagina_pdf",
+        "pagina_impressa",
+        "quadro"
+      ]
+    },
+    {
+      "nome": "pendencias",
+      "aba": "Pendencias",
+      "registros": 30,
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "colunas": [
+        "pendencia_id",
+        "tema",
+        "descricao",
+        "paginas_pdf",
+        "tratamento",
+        "tipo",
+        "tabela",
+        "pagina_pdf",
+        "registro_id",
+        "total_publicado",
+        "soma_parcelas_publicadas",
+        "diferenca"
+      ]
+    },
+    {
+      "nome": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "registros": 120,
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "colunas": [
+        "id_trecho",
+        "tipo",
+        "numero",
+        "titulo_original",
+        "pagina_pdf",
+        "pagina_impressa",
+        "status"
+      ]
+    },
+    {
+      "nome": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "registros": 0,
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "colunas": [
+        "medicao_id",
+        "indicador_id",
+        "ambito",
+        "periodo_inicio",
+        "periodo_fim",
+        "numerador",
+        "denominador",
+        "valor_medido",
+        "unidade",
+        "evidencia_arquivo_ou_url",
+        "pagina_evidencia",
+        "responsavel_informacao",
+        "data_registro",
+        "observacao"
+      ]
+    },
+    {
+      "nome": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "registros": 0,
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "colunas": [
+        "execucao_id",
+        "acao_id",
+        "projeto_id",
+        "localidade",
+        "data_referencia",
+        "situacao_informada",
+        "quantidade_executada",
+        "unidade",
+        "inicio_real",
+        "conclusao_real",
+        "responsavel_informacao",
+        "evidencia_arquivo_ou_url",
+        "pagina_evidencia",
+        "observacao"
+      ]
+    },
+    {
+      "nome": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "registros": 0,
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "colunas": [
+        "despesa_id",
+        "linha_investimento_id",
+        "acao_id",
+        "localidade",
+        "periodo_inicio",
+        "periodo_fim",
+        "valor_empenhado",
+        "valor_liquidado",
+        "valor_pago",
+        "unidade_monetaria",
+        "data_base",
+        "responsavel_informacao",
+        "evidencia_arquivo_ou_url",
+        "pagina_evidencia",
+        "observacao"
+      ]
+    }
+  ],
+  "campos": [
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "meta_id",
+      "tipo": "string",
+      "descricao": "meta id",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "indicador_id",
+      "tipo": "string",
+      "descricao": "Identificador do catálogo correspondente. T98/T99 são mantidos separados de A1–G2.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "natureza_registro",
+      "tipo": "string",
+      "descricao": "natureza registro",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "ambito",
+      "tipo": "string",
+      "descricao": "Abrangência territorial da fonte. Distritos em conjunto não foram desagregados.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "ano",
+      "tipo": "number",
+      "descricao": "Ano civil explicitamente apresentado na fonte.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "valor_original",
+      "tipo": "string",
+      "descricao": "Conteúdo literal da fonte; preserva traços, ND, vírgulas e comparadores.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "valor_numerico",
+      "tipo": "number",
+      "descricao": "Conversão decimal do valor original, sem estimativa. Percentuais em escala 0–100.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas",
+      "aba": "Metas",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma meta por indicador, âmbito e ano; qualitativas G1/G2 sem ano.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "indicador_id",
+      "tipo": "string",
+      "descricao": "Identificador do catálogo correspondente. T98/T99 são mantidos separados de A1–G2.",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "nome_original",
+      "tipo": "string",
+      "descricao": "nome original",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "definicao_formula_original",
+      "tipo": "string",
+      "descricao": "definicao formula original",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_principais",
+      "aba": "Indicadores principais",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Um indicador da tabela 51.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "meta_id",
+      "tipo": "string",
+      "descricao": "meta id",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "ambito",
+      "tipo": "string",
+      "descricao": "Abrangência territorial da fonte. Distritos em conjunto não foram desagregados.",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "ano_inicio",
+      "tipo": "string",
+      "descricao": "Primeiro ano civil do intervalo explícito; vazio quando fonte usa apenas Ano 01–05.",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "ano_fim",
+      "tipo": "string",
+      "descricao": "Último ano civil do intervalo explícito.",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "codigo_original",
+      "tipo": "string",
+      "descricao": "codigo original",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "objetivo_original",
+      "tipo": "string",
+      "descricao": "objetivo original",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "meta_original",
+      "tipo": "string",
+      "descricao": "meta original",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "prazo_original",
+      "tipo": "string",
+      "descricao": "prazo original",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "responsavel",
+      "tipo": "string",
+      "descricao": "responsavel",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "metas_residuos",
+      "aba": "Metas residuos",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma meta qualitativa da tabela 54.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "id",
+      "tipo": "string",
+      "descricao": "id",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "tipo_registro",
+      "tipo": "string",
+      "descricao": "tipo registro",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "local",
+      "tipo": "string",
+      "descricao": "local",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "periodo_original",
+      "tipo": "string",
+      "descricao": "periodo original",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "medida",
+      "tipo": "string",
+      "descricao": "medida",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "valor_original",
+      "tipo": "string",
+      "descricao": "Conteúdo literal da fonte; preserva traços, ND, vírgulas e comparadores.",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "valor_numero",
+      "tipo": "number",
+      "descricao": "Conversão decimal do valor original, sem estimativa.",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "categoria",
+      "tipo": "string",
+      "descricao": "categoria",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "fonte_original",
+      "tipo": "string",
+      "descricao": "fonte original",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "diagnostico",
+      "aba": "Diagnostico",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma medida, categoria e referência histórica do diagnóstico.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "id_registro",
+      "tipo": "string",
+      "descricao": "id registro",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "natureza",
+      "tipo": "string",
+      "descricao": "natureza",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "localidade",
+      "tipo": "string",
+      "descricao": "localidade",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "ano",
+      "tipo": "number",
+      "descricao": "Ano civil explicitamente apresentado na fonte.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "medida",
+      "tipo": "string",
+      "descricao": "medida",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "valor_original",
+      "tipo": "string",
+      "descricao": "Conteúdo literal da fonte; preserva traços, ND, vírgulas e comparadores.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "valor_numerico",
+      "tipo": "number",
+      "descricao": "Conversão decimal do valor original, sem estimativa. Percentuais em escala 0–100.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "tabela",
+      "tipo": "number",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "ano_projeto_original",
+      "tipo": "number",
+      "descricao": "ano projeto original",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "situacao_valor",
+      "tipo": "string",
+      "descricao": "situacao valor",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projecoes_anuais",
+      "aba": "Projecoes anuais",
+      "campo": "linha_original",
+      "tipo": "string",
+      "descricao": "linha original",
+      "granularidade": "Uma medida por tabela, ano e localidade. Inclui meta técnica de perdas da tabela 57.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "id_registro",
+      "tipo": "string",
+      "descricao": "id registro",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "natureza",
+      "tipo": "string",
+      "descricao": "natureza",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "localidade",
+      "tipo": "string",
+      "descricao": "localidade",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "ano_inicio",
+      "tipo": "number",
+      "descricao": "Primeiro ano civil do intervalo explícito; vazio quando fonte usa apenas Ano 01–05.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "ano_fim",
+      "tipo": "number",
+      "descricao": "Último ano civil do intervalo explícito.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "medida",
+      "tipo": "string",
+      "descricao": "medida",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "valor_original",
+      "tipo": "string",
+      "descricao": "Conteúdo literal da fonte; preserva traços, ND, vírgulas e comparadores.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "valor_numerico",
+      "tipo": "number",
+      "descricao": "Conversão decimal do valor original, sem estimativa. Percentuais em escala 0–100.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "tabela",
+      "tipo": "number",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "horizonte_original",
+      "tipo": "string",
+      "descricao": "horizonte original",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "situacao_valor",
+      "tipo": "string",
+      "descricao": "situacao valor",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "intervencoes_previstas",
+      "aba": "Intervencoes previstas",
+      "campo": "linha_original",
+      "tipo": "string",
+      "descricao": "linha original",
+      "granularidade": "Uma medida por intervenção, localidade e horizonte.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "investimento_id",
+      "tipo": "string",
+      "descricao": "investimento id",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "linha_id",
+      "tipo": "string",
+      "descricao": "linha id",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "localidade",
+      "tipo": "string",
+      "descricao": "localidade",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "ano_inicio",
+      "tipo": "number",
+      "descricao": "Primeiro ano civil do intervalo explícito; vazio quando fonte usa apenas Ano 01–05.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "ano_fim",
+      "tipo": "number",
+      "descricao": "Último ano civil do intervalo explícito.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "periodo_original",
+      "tipo": "string",
+      "descricao": "periodo original",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "descricao_original",
+      "tipo": "string",
+      "descricao": "descricao original",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "valor_original",
+      "tipo": "string",
+      "descricao": "Conteúdo literal da fonte; preserva traços, ND, vírgulas e comparadores.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "valor",
+      "tipo": "number",
+      "descricao": "Valor monetário numérico em reais quando explicitamente informado.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "tabela",
+      "tipo": "number",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "item_original",
+      "tipo": "string",
+      "descricao": "item original",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "tipo_linha",
+      "tipo": "string",
+      "descricao": "Distingue item, subtotal e total; não somar subtotais/totais com os itens.",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "data_base_original",
+      "tipo": "string",
+      "descricao": "data base original",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "investimentos_previstos",
+      "aba": "Investimentos previstos",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Um valor monetário por linha e período, incluindo totais explicitamente identificados.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "programas",
+      "aba": "Programas",
+      "campo": "programa_id",
+      "tipo": "string",
+      "descricao": "programa id",
+      "granularidade": "Um programa com seu código original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "programas",
+      "aba": "Programas",
+      "campo": "nome_original",
+      "tipo": "string",
+      "descricao": "nome original",
+      "granularidade": "Um programa com seu código original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "programas",
+      "aba": "Programas",
+      "campo": "componente",
+      "tipo": "string",
+      "descricao": "componente",
+      "granularidade": "Um programa com seu código original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "programas",
+      "aba": "Programas",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um programa com seu código original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "programas",
+      "aba": "Programas",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um programa com seu código original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "programas",
+      "aba": "Programas",
+      "campo": "fonte_secao",
+      "tipo": "string",
+      "descricao": "fonte secao",
+      "granularidade": "Um programa com seu código original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projetos",
+      "aba": "Projetos",
+      "campo": "programa_id",
+      "tipo": "string",
+      "descricao": "programa id",
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projetos",
+      "aba": "Projetos",
+      "campo": "projeto_id",
+      "tipo": "string",
+      "descricao": "projeto id",
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projetos",
+      "aba": "Projetos",
+      "campo": "nome_original",
+      "tipo": "string",
+      "descricao": "nome original",
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projetos",
+      "aba": "Projetos",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projetos",
+      "aba": "Projetos",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "projetos",
+      "aba": "Projetos",
+      "campo": "fonte_secao",
+      "tipo": "string",
+      "descricao": "fonte secao",
+      "granularidade": "Um projeto com seu código original e vínculo ao programa.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "acao_id",
+      "tipo": "string",
+      "descricao": "Identificador da ação na base; prefixos preservam seção de origem.",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "tipo_registro",
+      "tipo": "string",
+      "descricao": "tipo registro",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "ambito",
+      "tipo": "string",
+      "descricao": "Abrangência territorial da fonte. Distritos em conjunto não foram desagregados.",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "localidade",
+      "tipo": "string",
+      "descricao": "localidade",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "descricao_original",
+      "tipo": "string",
+      "descricao": "descricao original",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "programa",
+      "tipo": "string",
+      "descricao": "programa",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "componente",
+      "tipo": "string",
+      "descricao": "componente",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "codigo_original",
+      "tipo": "string",
+      "descricao": "codigo original",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "prioridade",
+      "tipo": "string",
+      "descricao": "prioridade",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "prazo_original",
+      "tipo": "string",
+      "descricao": "prazo original",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "fonte_secao",
+      "tipo": "string",
+      "descricao": "fonte secao",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "instrumentos_originais",
+      "tipo": "string",
+      "descricao": "instrumentos originais",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "secao",
+      "tipo": "string",
+      "descricao": "secao",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "categoria",
+      "tipo": "string",
+      "descricao": "categoria",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "acao_original",
+      "tipo": "string",
+      "descricao": "acao original",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_previstas",
+      "aba": "Acoes previstas",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma ação/atividade por seção de origem. Repetições entre seções não são a mesma chave.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "indicador_id",
+      "tipo": "string",
+      "descricao": "Identificador do catálogo correspondente. T98/T99 são mantidos separados de A1–G2.",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "ambito",
+      "tipo": "string",
+      "descricao": "Abrangência territorial da fonte. Distritos em conjunto não foram desagregados.",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "periodo_original",
+      "tipo": "string",
+      "descricao": "periodo original",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "nome_original",
+      "tipo": "string",
+      "descricao": "nome original",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "formula_original",
+      "tipo": "string",
+      "descricao": "formula original",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "variaveis_originais",
+      "tipo": "string",
+      "descricao": "variaveis originais",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "unidade_original",
+      "tipo": "string",
+      "descricao": "unidade original",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "referencia_original",
+      "tipo": "string",
+      "descricao": "referencia original",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "indicadores_desempenho",
+      "aba": "Indicadores desempenho",
+      "campo": "categoria",
+      "tipo": "string",
+      "descricao": "categoria",
+      "granularidade": "Uma definição de indicador. Fórmulas e unidades preservadas como texto.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "indicador_id",
+      "tipo": "string",
+      "descricao": "Identificador do catálogo correspondente. T98/T99 são mantidos separados de A1–G2.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "ano",
+      "tipo": "number",
+      "descricao": "Ano civil explicitamente apresentado na fonte.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "valor_original",
+      "tipo": "string",
+      "descricao": "Conteúdo literal da fonte; preserva traços, ND, vírgulas e comparadores.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "valor_numerico",
+      "tipo": "number",
+      "descricao": "Conversão decimal do valor original, sem estimativa. Percentuais em escala 0–100.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "referencia_id",
+      "tipo": "string",
+      "descricao": "referencia id",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "tipo",
+      "tipo": "string",
+      "descricao": "tipo",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "operador",
+      "tipo": "string",
+      "descricao": "operador",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "referencias_desempenho",
+      "aba": "Referencias desempenho",
+      "campo": "tabela",
+      "tipo": "string",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma referência histórica, meta ou parâmetro de desempenho.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "medida_id",
+      "tipo": "string",
+      "descricao": "medida id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "codigo_medida_original",
+      "tipo": "number",
+      "descricao": "codigo medida original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "etapa",
+      "tipo": "string",
+      "descricao": "etapa",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "evento_original",
+      "tipo": "string",
+      "descricao": "evento original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "causa_original",
+      "tipo": "string",
+      "descricao": "causa original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "acao_original",
+      "tipo": "string",
+      "descricao": "acao original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "prefeitura_municipal_original",
+      "tipo": "string",
+      "descricao": "prefeitura municipal original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "prestador_servicos_original",
+      "tipo": "string",
+      "descricao": "prestador servicos original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "outros_original",
+      "tipo": "string",
+      "descricao": "outros original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "atores_envolvidos",
+      "tipo": "string",
+      "descricao": "atores envolvidos",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "medidas_acionamento",
+      "aba": "Medidas contingencia",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "evento_id",
+      "tipo": "string",
+      "descricao": "evento id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "etapa",
+      "tipo": "string",
+      "descricao": "etapa",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "evento_original",
+      "tipo": "string",
+      "descricao": "evento original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "causa_original",
+      "tipo": "string",
+      "descricao": "causa original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "medidas_original",
+      "tipo": "string",
+      "descricao": "medidas original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "acao_original",
+      "tipo": "string",
+      "descricao": "acao original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "eventos_contingencia",
+      "aba": "Eventos contingencia",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "vinculo_id",
+      "tipo": "string",
+      "descricao": "vinculo id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "evento_id",
+      "tipo": "string",
+      "descricao": "evento id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "medida_id",
+      "tipo": "string",
+      "descricao": "medida id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "etapa",
+      "tipo": "string",
+      "descricao": "etapa",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "evento_original",
+      "tipo": "string",
+      "descricao": "evento original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "causa_original",
+      "tipo": "string",
+      "descricao": "causa original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "acao_original",
+      "tipo": "string",
+      "descricao": "acao original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "atores_envolvidos",
+      "tipo": "string",
+      "descricao": "atores envolvidos",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "pagina_medida",
+      "tipo": "number",
+      "descricao": "pagina medida",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "quadro_medida",
+      "tipo": "number",
+      "descricao": "quadro medida",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "vinculos_evento_medida",
+      "aba": "Vinculos contingencia",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "acao_id",
+      "tipo": "string",
+      "descricao": "Identificador da ação na base; prefixos preservam seção de origem.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "tipo_original",
+      "tipo": "string",
+      "descricao": "tipo original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "etapa",
+      "tipo": "string",
+      "descricao": "etapa",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "evento_original",
+      "tipo": "string",
+      "descricao": "evento original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "causa_original",
+      "tipo": "string",
+      "descricao": "causa original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "acao_original",
+      "tipo": "string",
+      "descricao": "acao original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_preventivas",
+      "aba": "Acoes preventivas",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "risco_id",
+      "tipo": "string",
+      "descricao": "risco id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "etapa",
+      "tipo": "string",
+      "descricao": "etapa",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "risco_original",
+      "tipo": "string",
+      "descricao": "risco original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "exemplos_originais",
+      "tipo": "string",
+      "descricao": "exemplos originais",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "danos_saude_originais",
+      "tipo": "string",
+      "descricao": "danos saude originais",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "riscos_trabalho",
+      "aba": "Riscos trabalho",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias_contingencia",
+      "aba": "Pendencias contingencia",
+      "campo": "pendencia_id",
+      "tipo": "string",
+      "descricao": "pendencia id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias_contingencia",
+      "aba": "Pendencias contingencia",
+      "campo": "descricao",
+      "tipo": "string",
+      "descricao": "descricao",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias_contingencia",
+      "aba": "Pendencias contingencia",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias_contingencia",
+      "aba": "Pendencias contingencia",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "acao_id",
+      "tipo": "string",
+      "descricao": "Identificador da ação na base; prefixos preservam seção de origem.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "eixo",
+      "tipo": "string",
+      "descricao": "eixo",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "evento_id",
+      "tipo": "string",
+      "descricao": "evento id",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "etapa",
+      "tipo": "string",
+      "descricao": "etapa",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "evento_original",
+      "tipo": "string",
+      "descricao": "evento original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "causa_original",
+      "tipo": "string",
+      "descricao": "causa original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "acao_original",
+      "tipo": "string",
+      "descricao": "acao original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "responsavel_original",
+      "tipo": "string",
+      "descricao": "responsavel original",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "arquivo_fonte",
+      "tipo": "string",
+      "descricao": "arquivo fonte",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "acoes_emergenciais",
+      "aba": "Acoes emergenciais",
+      "campo": "quadro",
+      "tipo": "number",
+      "descricao": "quadro",
+      "granularidade": "Um registro transcrito do respectivo quadro de contingência ou risco.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "pendencia_id",
+      "tipo": "string",
+      "descricao": "pendencia id",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "tema",
+      "tipo": "string",
+      "descricao": "tema",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "descricao",
+      "tipo": "string",
+      "descricao": "descricao",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "paginas_pdf",
+      "tipo": "string",
+      "descricao": "paginas pdf",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "tratamento",
+      "tipo": "string",
+      "descricao": "tratamento",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "tipo",
+      "tipo": "string",
+      "descricao": "tipo",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "tabela",
+      "tipo": "number",
+      "descricao": "Número original da tabela; quadros permanecem identificados no campo próprio.",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "registro_id",
+      "tipo": "string",
+      "descricao": "registro id",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "total_publicado",
+      "tipo": "number",
+      "descricao": "total publicado",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "soma_parcelas_publicadas",
+      "tipo": "number",
+      "descricao": "soma parcelas publicadas",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "pendencias",
+      "aba": "Pendencias",
+      "campo": "diferenca",
+      "tipo": "number",
+      "descricao": "diferenca",
+      "granularidade": "Uma divergência ou limitação a resolver.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "id_trecho",
+      "tipo": "string",
+      "descricao": "id trecho",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "tipo",
+      "tipo": "string",
+      "descricao": "tipo",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "numero",
+      "tipo": "number",
+      "descricao": "numero",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "titulo_original",
+      "tipo": "string",
+      "descricao": "titulo original",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "pagina_pdf",
+      "tipo": "number",
+      "descricao": "Página física do arquivo PDF, contando a capa como 1.",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "pagina_impressa",
+      "tipo": "number",
+      "descricao": "Número de página impresso, quando identificado.",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "inventario_fonte",
+      "aba": "Inventario fonte",
+      "campo": "status",
+      "tipo": "string",
+      "descricao": "status",
+      "granularidade": "Um trecho de tabela/quadro por página. Texto completo no JSON de extração.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "medicao_id",
+      "tipo": "string",
+      "descricao": "medicao id",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "indicador_id",
+      "tipo": "string",
+      "descricao": "Identificador do catálogo correspondente. T98/T99 são mantidos separados de A1–G2.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "ambito",
+      "tipo": "string",
+      "descricao": "Abrangência territorial da fonte. Distritos em conjunto não foram desagregados.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "periodo_inicio",
+      "tipo": "string",
+      "descricao": "Início real da competência, formato AAAA-MM-DD.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "periodo_fim",
+      "tipo": "string",
+      "descricao": "Fim real da competência, formato AAAA-MM-DD.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "numerador",
+      "tipo": "number",
+      "descricao": "Quantidade medida conforme a definição do indicador.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "denominador",
+      "tipo": "number",
+      "descricao": "Universo medido conforme a definição do indicador. Zero não equivale a ausência.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "valor_medido",
+      "tipo": "number",
+      "descricao": "Resultado real a inserir posteriormente, com unidade e evidência. Vazio nesta entrega.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "evidencia_arquivo_ou_url",
+      "tipo": "string",
+      "descricao": "Documento comprobatório do dado real. Não usar o plano como evidência de execução.",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "pagina_evidencia",
+      "tipo": "string",
+      "descricao": "pagina evidencia",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "responsavel_informacao",
+      "tipo": "string",
+      "descricao": "responsavel informacao",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "data_registro",
+      "tipo": "string",
+      "descricao": "data registro",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_medicoes",
+      "aba": "Modelo medicoes",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma medição real por indicador, âmbito e período. Informar evidência e manter denominador da definição original.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "execucao_id",
+      "tipo": "string",
+      "descricao": "execucao id",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "acao_id",
+      "tipo": "string",
+      "descricao": "Identificador da ação na base; prefixos preservam seção de origem.",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "projeto_id",
+      "tipo": "string",
+      "descricao": "projeto id",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "localidade",
+      "tipo": "string",
+      "descricao": "localidade",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "data_referencia",
+      "tipo": "string",
+      "descricao": "Data real a que se refere a informação, formato AAAA-MM-DD.",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "situacao_informada",
+      "tipo": "string",
+      "descricao": "Situação real a informar posteriormente; não derivar de datas planejadas.",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "quantidade_executada",
+      "tipo": "number",
+      "descricao": "Quantidade real comprovada; nenhuma quantidade foi preenchida.",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "unidade",
+      "tipo": "string",
+      "descricao": "Unidade de medida da fonte; não converter entre domicílios, economias e população.",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "inicio_real",
+      "tipo": "string",
+      "descricao": "inicio real",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "conclusao_real",
+      "tipo": "string",
+      "descricao": "conclusao real",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "responsavel_informacao",
+      "tipo": "string",
+      "descricao": "responsavel informacao",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "evidencia_arquivo_ou_url",
+      "tipo": "string",
+      "descricao": "Documento comprobatório do dado real. Não usar o plano como evidência de execução.",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "pagina_evidencia",
+      "tipo": "string",
+      "descricao": "pagina evidencia",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_execucao",
+      "aba": "Modelo execucao",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Um evento real de execução física, identificado pela ação e data de referência.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "despesa_id",
+      "tipo": "string",
+      "descricao": "despesa id",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "linha_investimento_id",
+      "tipo": "string",
+      "descricao": "Vínculo a linha_id de Investimentos previstos; não ao registro longo do período.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "acao_id",
+      "tipo": "string",
+      "descricao": "Identificador da ação na base; prefixos preservam seção de origem.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "localidade",
+      "tipo": "string",
+      "descricao": "localidade",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "periodo_inicio",
+      "tipo": "string",
+      "descricao": "Início real da competência, formato AAAA-MM-DD.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "periodo_fim",
+      "tipo": "string",
+      "descricao": "Fim real da competência, formato AAAA-MM-DD.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "valor_empenhado",
+      "tipo": "number",
+      "descricao": "Despesa empenhada comprovada em reais.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "valor_liquidado",
+      "tipo": "number",
+      "descricao": "Despesa liquidada comprovada em reais.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "valor_pago",
+      "tipo": "number",
+      "descricao": "Despesa paga comprovada em reais.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "unidade_monetaria",
+      "tipo": "string",
+      "descricao": "unidade monetaria",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "data_base",
+      "tipo": "string",
+      "descricao": "data base",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "responsavel_informacao",
+      "tipo": "string",
+      "descricao": "responsavel informacao",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "evidencia_arquivo_ou_url",
+      "tipo": "string",
+      "descricao": "Documento comprobatório do dado real. Não usar o plano como evidência de execução.",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "pagina_evidencia",
+      "tipo": "string",
+      "descricao": "pagina evidencia",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    },
+    {
+      "tabela": "modelo_financeiro",
+      "aba": "Modelo financeiro",
+      "campo": "observacao",
+      "tipo": "string",
+      "descricao": "observacao",
+      "granularidade": "Uma despesa comprovada por período e vínculo ao item previsto. Não somar empenhado, liquidado e pago entre si.",
+      "ausencia": "null no JSON; vazio no CSV/XLSX; não equivale a zero"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-11-05T14:46:08.594983+00:00",
+  "pdf": "documentos\\PMISB-ALTAMIRA-APROVADO.pdf",
+  "pdf_sha256": "b0aa75f5a254c025a850eacecb01e5d204e80832c544bfe0dc389df6ce81100f",
+  "sha256": {
+    "originais\\figura36.png": "2422a953f1fa5c5f04a70c08ca8bd0d2c596e1bb12986ba2dac5044d245ba683",
+    "originais\\figura53.png": "d4a08159b7767bb72383c420b31ea3a704afc0f3493c9b574527deb70ba14761",
+    "originais\\ibge_altamira_2022.geojson": "a172e03fe53a58ea62a858ad030e4edffcc9da8ee81fda87a14970fcdfe45442",
+    "originais\\ibge_api_documentacao.html": "179d4369ce9e0a747d924e9c1c79383629f7d30ade51bc6f91d53b779aab1eb7",
+    "originais\\ibge_consulta_intrarregiao_distrito.json": "8d0453297649870a96302f7320b43910348c88cd9af60285f6d6afc1073ecf03",
+    "originais\\ibge_distritos.json": "ba833a394883e368a3533f832348ae5bf8d622d698699f7d0c6c74c168c02e7e",
+    "originais\\ibge_erro_2024_malha.json": "fcbda2e2660dbbff82ba8df76212f3d4ab9ced3b9b9a8b8700621f45fb5ce006",
+    "originais\\ibge_erro_2024_metadados.json": "fcbda2e2660dbbff82ba8df76212f3d4ab9ced3b9b9a8b8700621f45fb5ce006",
+    "originais\\ibge_informacoes_tecnicas_2022.pdf": "419c8e5eccb74db35e4ac80e723db8a12968b693c582f26a8cfefeca5bb0a8b3",
+    "originais\\ibge_localidade.json": "2ccd103103f3441204b2cb059288effe4a2c2351ef3ceb795f2f36f3d21eb933",
+    "originais\\ibge_metadados_2022.json": "8166d69c7a5438ade4d9f72ce68a2580e1f2a34eda3a9c8042fffef6b95dbb35",
+    "originais\\tabela20_p118.txt": "cc0ab8991ea1d3453823e1e4f0deb5fd78d84fb3a84caa00cd6b6bc74512fba0"
+  }
+}
