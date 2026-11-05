@@ -2,6 +2,8 @@
 
 Dashboard e geoportal para consultar o Plano Municipal Integrado de Saneamento Básico de Altamira, edição de agosto de2022. A interface segue a identidade visual do próprio documento e conserva a referência de origem de cada informação.
 
+**Portal público:** [acompaltamira.vercel.app](https://acompaltamira.vercel.app). Consulta sem login; gestão e gravação permanecem locais.
+
 ## Duas formas de uso
 
 | Versão | Finalidade | Dados e acesso |
